@@ -119,7 +119,7 @@ export const useAppStore = create<AppStore>()(
   persist(
     (set, get) => ({
       settings: {
-        geminiApiKey: "AIzaSyB000Z2CMC_k_uAkgTUvw_0Z_rT4Sj0Bqg",
+        geminiApiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY || "",
         theme: "dark"
       },
       history: [],
