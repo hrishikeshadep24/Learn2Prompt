@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "easy_1",
+    "title": "Teach a 5th-grade student a science concept.",
+    "difficulty": "Easy",
+    "problem": "Write a prompt asking ChatGPT to explain a scientific concept (e.g. photosynthesis) to a 10-\nyear-old.",
+    "hints": "Specify the concept and audience (child). Use a friendly tone.",
+    "min_length": "~10\u201315 words.",
+    "model_prompt": "Explain how photosynthesis works as if teaching a 10-year-old, using simple\nanalogies.",
+    "rubric_raw": "Clarity (0\u20133), Context (0\u20133), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_2",
+    "title": "Summarize a news article.",
+    "difficulty": "Easy",
+    "problem": "Write a prompt to have ChatGPT summarize a given news article and highlight key points.\n1.\n2.\n3.\n4.\n5.\n6.\n7.\n8.",
+    "hints": "Define the output (summary) and any length or focus (e.g. bullet points).",
+    "min_length": "~15 words.",
+    "model_prompt": "Summarize the following news article in a few clear bullet points, highlighting the\nmain facts and conclusions.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_3",
+    "title": "Recipe instructions.",
+    "difficulty": "Easy",
+    "problem": "Ask ChatGPT for step-by-step instructions to make a simple recipe (e.g. an omelette).",
+    "hints": "Include the dish name and audience (e.g. beginner cook). Tone: instructional.",
+    "min_length": "~10 words.",
+    "model_prompt": "Provide step-by-step cooking instructions for making a basic cheese omelette,\nsuitable for a beginner cook.",
+    "rubric_raw": "Clarity (0\u20133), Context (0\u20133), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_4",
+    "title": "Plan a weekend trip.",
+    "difficulty": "Easy",
+    "problem": "Write a prompt to plan a 2-day weekend trip itinerary in a given city.",
+    "hints": "Name the city and include constraints (e.g. budget or interests).",
+    "min_length": "~15 words.",
+    "model_prompt": "Suggest a detailed 2-day itinerary for a budget-friendly weekend trip in Denver, CO,\nincluding sightseeing and dining suggestions.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Constraints (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Constraints",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_5",
+    "title": "Email to a professor.",
+    "difficulty": "Easy",
+    "problem": "Create a prompt to draft a polite email requesting a deadline extension from a professor .",
+    "hints": "State the purpose and required tone (formal, respectful). Mention any reason briefly.",
+    "min_length": "~20 words.",
+    "model_prompt": "Write a polite, formal email to my professor asking for a one-week extension on my\nassignment due next Monday.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_6",
+    "title": "Explain a math problem step-by-step.",
+    "difficulty": "Easy",
+    "problem": "Ask ChatGPT to solve a math word problem and show each step of reasoning.",
+    "hints": "Include the exact math problem statement. Specify \u201cstep-by-step explanation.\u201d",
+    "min_length": "~15 words.",
+    "model_prompt": "Solve this math problem step by step: If a car travels 60 miles in 2 hours at\nconstant speed, how long to travel 150 miles? Explain your reasoning.\u201d\n9.\n10.\n11.\n12.\n13.\n14.\n15.\n16.\n17.\n18.\n19.\n20.\n21.\n22.\n23.\n24.\n25.\n26.\n27.\n28.\n29.\n30.\n31.\n32.\n33.\n34.\n35.",
+    "rubric_raw": "Clarity (0\u20133), Context (0\u20133), Detail (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_7",
+    "title": "Grammar correction.",
+    "difficulty": "Easy",
+    "problem": "Write a prompt to have ChatGPT correct grammatical errors in a given paragraph.",
+    "hints": "Include the text to correct. Ask for explanations of corrections.",
+    "min_length": "~10 words.",
+    "model_prompt": "Correct the grammar and spelling in the following paragraph and briefly explain each\ncorrection.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_8",
+    "title": "Translate and simplify.",
+    "difficulty": "Easy",
+    "problem": "Prompt ChatGPT to translate a sentence into another language and simplify its meaning.",
+    "hints": "Specify source and target languages. Mention \u201csimple words.\u201d",
+    "min_length": "~15 words.",
+    "model_prompt": "Translate this English sentence into Spanish and rephrase it using very simple words:\n\u2018Climate change poses a severe threat to global ecosystems.\u2019",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_9",
+    "title": "Health advice for students.",
+    "difficulty": "Easy",
+    "problem": "Ask ChatGPT for advice on healthy study habits for college students.",
+    "hints": "Set context (college student). Ask for bullet points.",
+    "min_length": "~15 words.",
+    "model_prompt": "Give five healthy study habits for college students, explained in clear bullet points.",
+    "rubric_raw": "Clarity (0\u20133), Audience (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Audience",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_10",
+    "title": "Career guidance.",
+    "difficulty": "Easy",
+    "problem": "Write a prompt to get career advice on improving a resume for a job in data science.",
+    "hints": "Mention the career field and existing document type (resume).",
+    "min_length": "~15 words.",
+    "model_prompt": "How can I improve my resume for a data scientist position? Provide specific\nsuggestions on skills and formatting.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Context (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_11",
+    "title": "List top books.",
+    "difficulty": "Easy",
+    "problem": "Prompt ChatGPT to list the top 5 books on personal finance with brief descriptions.",
+    "hints": "Specify number of items and details wanted (title + one-sentence description).",
+    "min_length": "~10 words.\n36.\n37.\n38.\n39.\n40.\n41.\n42.\n43.\n44.\n45.\n46.\n47.\n48.\n49.\n50.\n51.\n52.\n53.\n54.\n55.\n56.",
+    "model_prompt": "List the top 5 books on personal finance and give a one-sentence summary\nof each.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_12",
+    "title": "Email subject line.",
+    "difficulty": "Easy",
+    "problem": "Create a prompt to craft a concise email subject line for a product launch\nannouncement.",
+    "hints": "Specify context (product launch) and desired tone (excited, professional).",
+    "min_length": "~10 words.",
+    "model_prompt": "Generate an engaging email subject line announcing a new eco-friendly\nwater bottle to our subscribers.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_13",
+    "title": "Fitness routine.",
+    "difficulty": "Easy",
+    "problem": "Write a prompt to design a simple 20-minute daily exercise routine for beginners.",
+    "hints": "Include constraints (20 minutes, beginner level).",
+    "min_length": "~15 words.",
+    "model_prompt": "Create a 20-minute daily exercise routine for a fitness beginner , including\nwarm-up and cool-down steps.",
+    "rubric_raw": "Clarity (0\u20133), Constraints (0\u20133), Detail (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Constraints",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_14",
+    "title": "Brainstorm blog topics.",
+    "difficulty": "Easy",
+    "problem": "Ask ChatGPT to suggest 5 blog post ideas for a food and travel blog.",
+    "hints": "Mention blog niche (food/travel) and format (list of ideas).",
+    "min_length": "~10 words.",
+    "model_prompt": "Suggest 5 creative blog post ideas for a blog about food and travel, in list\nform.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_15",
+    "title": "Productivity tips.",
+    "difficulty": "Easy",
+    "problem": "Prompt ChatGPT to give 3 time-management tips for working professionals.",
+    "hints": "State audience (working professionals). Ask for bullet points.",
+    "min_length": "~10 words.",
+    "model_prompt": "Provide 3 effective time-management tips for busy working professionals in\nbullet points.",
+    "rubric_raw": "Clarity (0\u20133), Audience (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Audience",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_16",
+    "title": "Study quiz generation.",
+    "difficulty": "Easy",
+    "problem": "Write a prompt that asks ChatGPT to create 3 quiz questions (with answers) on basic\nbiology.",
+    "hints": "Specify topic (biology) and number of questions.",
+    "min_length": "~10 words.",
+    "model_prompt": "Generate 3 multiple-choice quiz questions (with answers) on basic high-\nschool biology.\u201d\n57.\n58.\n59.\n60.\n61.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_17",
+    "title": "Poem in a style.",
+    "difficulty": "Easy",
+    "problem": "Create a prompt to write a short love poem in the style of Shakespeare.",
+    "hints": "Mention style (Shakespearean) and subject (love).",
+    "min_length": "~10 words.",
+    "model_prompt": "Write a short love poem in the style of Shakespeare, using archaic language.",
+    "rubric_raw": "Clarity (0\u20133), Tone (0\u20133), Specificity (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_18",
+    "title": "Research summary.",
+    "difficulty": "Easy",
+    "problem": "Ask ChatGPT to summarize a given research abstract in layman\u2019s terms.",
+    "hints": "Provide abstract text. Instruct \u201clayman\u2019s terms.\u201d",
+    "min_length": "~15 words.",
+    "model_prompt": "Summarize this research abstract in simple layman\u2019s language suitable for a\ngeneral audience.",
+    "rubric_raw": "Clarity (0\u20133), Context (0\u20133), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_19",
+    "title": "Meeting agenda.",
+    "difficulty": "Easy",
+    "problem": "Write a prompt to generate a meeting agenda for a team discussion on marketing\nstrategy.",
+    "hints": "Include meeting topic (marketing strategy) and format (list of agenda items).",
+    "min_length": "~10 words.",
+    "model_prompt": "Create a concise meeting agenda for a team meeting about our new\nmarketing strategy.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_20",
+    "title": "List pros/cons.",
+    "difficulty": "Easy",
+    "problem": "Prompt ChatGPT to list pros and cons of remote work for employees.",
+    "hints": "State topic clearly and format (bullet pros and cons).",
+    "min_length": "~10 words.",
+    "model_prompt": "List 3 pros and 3 cons of remote work for employees in bullet points.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_21",
+    "title": "Email response.",
+    "difficulty": "Easy",
+    "problem": "Create a prompt to generate a polite response to a colleague\u2019s meeting request.",
+    "hints": "Mention context (meeting request) and tone (friendly, professional).",
+    "min_length": "~10 words.",
+    "model_prompt": "Write a polite, friendly email accepting a meeting invitation from a colleague.",
+    "rubric_raw": "Clarity (0\u20133), Tone (0\u20133), Specificity (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_22",
+    "title": "Language learning.",
+    "difficulty": "Easy",
+    "problem": "Ask ChatGPT to create 5 flashcards for basic Spanish greetings.",
+    "hints": "Specify topic (Spanish greetings) and number of flashcards.\n62.\n63.\n64.\n65.\n66.\n67.",
+    "min_length": "~10 words.",
+    "model_prompt": "Create 5 flashcards for basic Spanish greetings (each card with Spanish phrase\nand English translation).",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_23",
+    "title": "Book summary for a child.",
+    "difficulty": "Easy",
+    "problem": "Prompt ChatGPT to summarize a children\u2019s book for a 7-year-old.",
+    "hints": "Provide book title. Ask for simple language.",
+    "min_length": "~15 words.",
+    "model_prompt": "Summarize the children\u2019s book Charlotte\u2019s Web in simple language suitable for\na 7-year-old.",
+    "rubric_raw": "Clarity (0\u20133), Audience (0\u20133), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Audience",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_24",
+    "title": "Topic explanation (casual).",
+    "difficulty": "Easy",
+    "problem": "Write a prompt to have ChatGPT explain cryptocurrency in casual terms to a friend.",
+    "hints": "State topic (cryptocurrency) and style (casual, friendly).",
+    "min_length": "~15 words.",
+    "model_prompt": "Explain cryptocurrency to me casually, like you\u2019re describing it to a friend\nwho knows nothing about it.",
+    "rubric_raw": "Clarity (0\u20133), Tone (0\u20133), Detail (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "easy_25",
+    "title": "Joke writing.",
+    "difficulty": "Easy",
+    "problem": "Create a prompt asking ChatGPT to tell a clean joke about computers.",
+    "hints": "Specify subject (computers) and style (clean humor).",
+    "min_length": "~10 words.",
+    "model_prompt": "Tell me a clean, funny joke about computer programmers.",
+    "rubric_raw": "Clarity (0\u20133), Tone (0\u20133), Specificity (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_1",
+    "title": "Business name brainstorming.",
+    "difficulty": "Medium",
+    "problem": "Prompt ChatGPT to generate 5 creative business name ideas for a coffee shop.",
+    "hints": "Include business type (coffee shop) and any theme or word to use.",
+    "min_length": "~15 words.",
+    "model_prompt": "Suggest 5 creative, catchy names for a new urban coffee shop aimed at\nyoung professionals.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Creativity/Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Creativity/Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_2",
+    "title": "Simple code explanation.",
+    "difficulty": "Medium",
+    "problem": "Write a prompt to explain what a short Python code snippet does.",
+    "hints": "Provide the code snippet. Ask for an explanation in plain terms.",
+    "min_length": "~15 words.\n68.\n69.\n70.\n1.\n2.",
+    "model_prompt": "Explain in simple terms what this Python code does: for i in range(3):\nprint(i*i).",
+    "rubric_raw": "Clarity (0\u20133), Context (0\u20133), Detail (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_3",
+    "title": "Marketing plan outline.",
+    "difficulty": "Medium",
+    "problem": "Create a prompt for an outline of a basic digital marketing strategy for a small\nbusiness.",
+    "hints": "Specify business type or product. Ask for organized points (e.g., market research,\nchannels, budget).",
+    "min_length": "~15 words.",
+    "model_prompt": "Outline a basic digital marketing strategy for a small online retail store,\nincluding target audience, channels, and budget considerations.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Organization (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Organization",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_4",
+    "title": "Event planning checklist.",
+    "difficulty": "Medium",
+    "problem": "Prompt ChatGPT to create a checklist for planning a wedding.",
+    "hints": "Specify event (wedding) and format (checklist or bullet list).",
+    "min_length": "~15 words.",
+    "model_prompt": "Generate a detailed checklist of tasks for planning a wedding, from\nengagement to reception.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_5",
+    "title": "Editing an essay draft.",
+    "difficulty": "Medium",
+    "problem": "Write a prompt asking ChatGPT to critique and improve an essay draft on climate\nchange.",
+    "hints": "Provide essay text. Specify revision goals (clarity, grammar , flow).",
+    "min_length": "~15 words.",
+    "model_prompt": "Review and improve this essay draft on climate change. Focus on clarity,\ngrammar , and argument strength.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Context (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_6",
+    "title": "Customer service response.",
+    "difficulty": "Medium",
+    "problem": "Prompt ChatGPT to draft a helpful customer service reply to a complaint about\nshipping delays.",
+    "hints": "Include the complaint details. Tone: apologetic and solution-focused.",
+    "min_length": "~15 words.",
+    "model_prompt": "Write a polite customer service response apologizing for shipping delays and\noffering a solution.",
+    "rubric_raw": "Clarity (0\u20133), Tone (0\u20133), Specificity (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_7",
+    "title": "Travel itinerary with constraints.",
+    "difficulty": "Medium",
+    "problem": "Ask ChatGPT to plan a 3-day trip itinerary to Paris under a $1000 budget.",
+    "hints": "State destination (Paris), duration (3 days), and budget ($1000).",
+    "min_length": "~15 words.\n3.\n4.\n5.\n6.\n7.",
+    "model_prompt": "Plan a 3-day trip itinerary to Paris with a budget of $1000, including\naccommodations, meals, and activities.",
+    "rubric_raw": "Clarity (0\u20133), Constraints (0\u20133), Detail (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Constraints",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_8",
+    "title": "Historical analysis.",
+    "difficulty": "Medium",
+    "problem": "Create a prompt to analyze the causes and effects of the Industrial Revolution.",
+    "hints": "Specify focus (causes and effects) and ask for structured answer (e.g., bullet points).",
+    "min_length": "~20 words.",
+    "model_prompt": "Analyze the main causes and effects of the Industrial Revolution. Present your\nanswer in separate sections for causes and effects.",
+    "rubric_raw": "Clarity (0\u20133), Structure (0\u20133), Detail (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_9",
+    "title": "Email follow-up.",
+    "difficulty": "Medium",
+    "problem": "Write a prompt to draft a follow-up email after a job interview.",
+    "hints": "Mention position applied for , thank interviewer . Tone: professional.",
+    "min_length": "~15 words.",
+    "model_prompt": "Compose a professional thank-you email following up on my job interview for\nthe marketing manager position.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_10",
+    "title": "Complex math tutoring.",
+    "difficulty": "Medium",
+    "problem": "Prompt ChatGPT to tutor on solving quadratic equations step by step.",
+    "hints": "Ask for step-by-step solution and explanation, assume learner is new to topic.",
+    "min_length": "~20 words.",
+    "model_prompt": "Explain how to solve quadratic equations step by step, assuming I\u2019m learning\nthis for the first time.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Audience (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Audience",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_11",
+    "title": "Programming learning resources.",
+    "difficulty": "Medium",
+    "problem": "Ask ChatGPT to list 4 high-quality online resources to learn Python, with brief\ndescriptions.",
+    "hints": "Specify language (Python) and number of resources.",
+    "min_length": "~10 words.",
+    "model_prompt": "List 4 reputable online resources for learning Python programming, with a 1-\nsentence description each.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Format (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Format",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_12",
+    "title": "Story outline.",
+    "difficulty": "Medium",
+    "problem": "Create a prompt to outline a short story about a time-travel adventure.",
+    "hints": "Include genre (time travel) and ask for key plot points.",
+    "min_length": "~15 words.",
+    "model_prompt": "Outline a short story about a time-travel adventure, listing the main plot\npoints.",
+    "rubric_raw": "Clarity (0\u20133), Creativity (0\u20133), Structure (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Creativity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_13",
+    "title": "Data insights.",
+    "difficulty": "Medium",
+    "problem": "Prompt ChatGPT to explain trends in a dataset of monthly sales (data provided).",
+    "hints": "Describe dataset columns briefly. Ask for summary of trends and possible reasons.",
+    "min_length": "~20 words.",
+    "model_prompt": "Given monthly sales data (e.g., columns: Month, Sales), describe any trends\nand suggest possible explanations.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Context (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_14",
+    "title": "Business proposal drafting.",
+    "difficulty": "Medium",
+    "problem": "Write a prompt to draft an outline of a business proposal for a new app\ndevelopment.",
+    "hints": "State app idea and key proposal sections (objective, market analysis, budget).",
+    "min_length": "~20 words.",
+    "model_prompt": "Outline a business proposal for developing a new task-management app,\nincluding sections for objectives, target market, and budget.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Organization (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Organization",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "medium_15",
+    "title": "Advanced grammar explanation.",
+    "difficulty": "Medium",
+    "problem": "Ask ChatGPT to explain the difference between two grammatical terms (e.g., \u201caffect\u201d\nvs \u201ceffect\u201d).",
+    "hints": "Provide both terms. Ask for examples.",
+    "min_length": "~15 words.",
+    "model_prompt": "Explain the difference between \u2018affect\u2019 and \u2018effect\u2019 with clear examples of\nusage.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Detail (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_1",
+    "title": "Lesson plan creation.",
+    "difficulty": "Hard",
+    "problem": "Prompt ChatGPT to create a detailed high-school lesson plan on photosynthesis,\nincluding objectives, activities, and assessment questions.",
+    "hints": "Specify education level and components (objectives, materials, steps). Tone: formal\neducator .",
+    "min_length": "~25 words.",
+    "model_prompt": "Develop a detailed lesson plan on photosynthesis for a 9th grade biology\nclass. Include learning objectives, required materials, instructional steps, and a few\nassessment questions.",
+    "rubric_raw": "Clarity (0\u20133), Detail/Complexity (0\u20133), Structure (0\u20132), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail/Complexity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_2",
+    "title": "Comprehensive marketing strategy.",
+    "difficulty": "Hard",
+    "problem": "Write a prompt to generate a full marketing strategy for an eco-friendly fashion\nstartup (with sections like market research, channels, content plan).",
+    "hints": "Include startup context, request distinct strategy sections.\n13.\n14.\n15.\n1.\n2.",
+    "min_length": "~25 words.",
+    "model_prompt": "Create a comprehensive marketing strategy for an eco-friendly fashion\nstartup. Cover market research, target audience, marketing channels (social media, email,\netc.), content themes, and budget considerations.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Completeness (0\u20132), Organization (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Completeness",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Organization",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_3",
+    "title": "Scientific research summary.",
+    "difficulty": "Hard",
+    "problem": "Prompt ChatGPT to read a provided abstract and critique its methodology and\nconclusions.",
+    "hints": "Include abstract. Ask for structured critique (strengths, weaknesses).",
+    "min_length": "~20 words.",
+    "model_prompt": "Critique the following research abstract: identify its methodology\u2019s strengths\nand weaknesses, and comment on the validity of its conclusions.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Reasoning (0\u20132), Depth (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Reasoning",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Depth",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_4",
+    "title": "Software design document.",
+    "difficulty": "Hard",
+    "problem": "Write a prompt to outline a software design for a simple mobile app (login, data\nstorage, UI).",
+    "hints": "Specify app features (e.g., login, user profiles). Ask for system components.",
+    "min_length": "~25 words.",
+    "model_prompt": "Outline the software design for a mobile app that includes user login, data\nstorage, and a simple user interface. Cover components like backend, database, and UI flow.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Structure (0\u20132), Completeness (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Completeness",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_5",
+    "title": "Business plan draft.",
+    "difficulty": "Hard",
+    "problem": "Prompt ChatGPT to draft an executive summary for a business plan of a new fitness\ncenter .",
+    "hints": "Include key info (concept, market, finances). Tone: professional.",
+    "min_length": "~20 words.",
+    "model_prompt": "Write an executive summary for a business plan of a new boutique fitness\ncenter, describing the concept, target market, and basic financial projections.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Professional Tone (0\u20132), Coverage (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Professional Tone",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Coverage",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_6",
+    "title": "Complex data analysis.",
+    "difficulty": "Hard",
+    "problem": "Ask ChatGPT to analyze a dataset (e.g. sales vs advertising spend) and recommend\nactions.",
+    "hints": "Describe dataset context. Ask for insights and suggestions.",
+    "min_length": "~20 words.",
+    "model_prompt": "Given the dataset with columns Sales and Advertising Spend over 12 months,\nanalyze the relationship and recommend actionable marketing strategies.",
+    "rubric_raw": "Clarity (0\u20133), Detail (0\u20133), Analysis Depth (0\u20132), Actionability (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Analysis Depth",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Actionability",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_7",
+    "title": "Legal document generation.",
+    "difficulty": "Hard",
+    "problem": "Prompt ChatGPT to draft a simple freelance contract for a graphic designer .\n3.\n4.\n5.\n6.\n7.",
+    "hints": "Include parties (client/designer), scope of work, payment terms.",
+    "min_length": "~20 words.",
+    "model_prompt": "Draft a simple freelance contract between a client and a graphic designer ,\nincluding scope of work, payment terms, and confidentiality clause.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Completeness (0\u20132), Formal Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Completeness",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Formal Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_8",
+    "title": "Literature analysis.",
+    "difficulty": "Hard",
+    "problem": "Ask ChatGPT to compare themes in two literary works (given titles).",
+    "hints": "Provide titles/authors. Request a side-by-side analysis.",
+    "min_length": "~20 words.",
+    "model_prompt": "Compare the main themes in \u20181984\u2019 by George Orwell and \u2018Brave New\nWorld\u2019 by Aldous Huxley, highlighting similarities and differences.",
+    "rubric_raw": "Clarity (0\u20133), Analytical Depth (0\u20133), Structure (0\u20132), Insight (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Analytical Depth",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Insight",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_9",
+    "title": "Scientific proposal outline.",
+    "difficulty": "Hard",
+    "problem": "Write a prompt to outline a grant proposal for researching renewable energy\nsolutions.",
+    "hints": "Include research goal, methodology, expected impact.",
+    "min_length": "~25 words.",
+    "model_prompt": "Outline a grant proposal for a research project on innovative renewable\nenergy solutions. Include objectives, methodology, and potential impact.",
+    "rubric_raw": "Clarity (0\u20133), Specificity (0\u20133), Structure (0\u20132), Completeness (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Specificity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Completeness",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_10",
+    "title": "Policy recommendation memo.",
+    "difficulty": "Hard",
+    "problem": "Prompt ChatGPT to draft a policy memo recommending solutions to reduce urban\ntraffic congestion.",
+    "hints": "Define audience (city council). Format: problem, recommendations, benefits.",
+    "min_length": "~20 words.",
+    "model_prompt": "Write a concise policy memo for a city council on reducing urban traffic\ncongestion, including problem overview and recommended solutions with benefits.",
+    "rubric_raw": "Clarity (0\u20133), Context (0\u20133), Persuasiveness (0\u20132), Structure (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Context",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Persuasiveness",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_11",
+    "title": "Advanced algorithm explanation.",
+    "difficulty": "Hard",
+    "problem": "Ask ChatGPT to explain how a complex algorithm (e.g. Dijkstra\u2019s shortest path)\nworks, step by step.",
+    "hints": "Specify algorithm and ask for step-by-step. Assume reader knows basic concepts.",
+    "min_length": "~25 words.",
+    "model_prompt": "Explain in clear steps how Dijkstra\u2019s shortest path algorithm works on a\nweighted graph.",
+    "rubric_raw": "Clarity (0\u20133), Technical Detail (0\u20133), Completeness (0\u20132), Structure (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Technical Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Completeness",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_12",
+    "title": "Creative ad copy.",
+    "difficulty": "Hard",
+    "problem": "Create a prompt to write a compelling Facebook ad for an eco-friendly cleaning\nproduct.\n8.\n9.\n10.\n11.\n12.",
+    "hints": "Include product details. Tone: catchy and persuasive.",
+    "min_length": "~15 words.",
+    "model_prompt": "Write a catchy Facebook ad for EcoClean, a natural cleaning spray, targeting\nenvironmentally conscious consumers.",
+    "rubric_raw": "Clarity (0\u20133), Creativity (0\u20133), Persuasiveness (0\u20132), Tone (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Creativity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Persuasiveness",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Tone",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_13",
+    "title": "Comprehensive report generation.",
+    "difficulty": "Hard",
+    "problem": "Prompt ChatGPT to compile a report on a given topic (e.g. climate change) including\ndefinition, impacts, and mitigation strategies.",
+    "hints": "Specify sections needed. Request a formal report format.",
+    "min_length": "~25 words.",
+    "model_prompt": "Generate a structured report on climate change covering: definition, current\nimpacts, and possible mitigation strategies.",
+    "rubric_raw": "Clarity (0\u20133), Comprehensiveness (0\u20133), Organization (0\u20132), Formality (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Comprehensiveness",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Organization",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Formality",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_14",
+    "title": "Data transformation challenge.",
+    "difficulty": "Hard",
+    "problem": "Ask ChatGPT to convert a narrative into a formatted table given categories (the\nnarrative provided).",
+    "hints": "Supply narrative text and table fields.",
+    "min_length": "~20 words.",
+    "model_prompt": "Convert the following project description into a table with columns: Task,\nDeadline, Responsible Person. The description is: \u2026",
+    "rubric_raw": "Clarity (0\u20133), Instruction Detail (0\u20133), Structure (0\u20132), Completeness (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Instruction Detail",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Structure",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Completeness",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "id": "hard_15",
+    "title": "Philosophical debate prompt.",
+    "difficulty": "Hard",
+    "problem": "Write a prompt to debate two philosophical viewpoints on free will, providing\narguments for both sides.",
+    "hints": "Specify the viewpoints. Ask for balanced arguments.",
+    "min_length": "~20 words.",
+    "model_prompt": "Discuss the philosophical debate between determinism and free will. Present\narguments for both perspectives objectively.",
+    "rubric_raw": "Clarity (0\u20133), Balance (0\u20133), Depth (0\u20132), Objectivity (0\u20132).",
+    "rubric": [
+      {
+        "name": "Clarity",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Balance",
+        "min": 0,
+        "max": 3
+      },
+      {
+        "name": "Depth",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "name": "Objectivity",
+        "min": 0,
+        "max": 2
+      }
+    ]
+  }
+]
