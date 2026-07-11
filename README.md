@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Learn2Prompt
 
-## Getting Started
+> Learn2Prompt is an AI-powered educational platform that helps users learn Prompt Engineering through structured tutorials, practical examples, and interactive exercises.
 
-First, run the development server:
+---
+
+## 📖 About
+
+Prompt Engineering has become an essential skill for working effectively with AI tools like ChatGPT, Gemini, Claude, and other Large Language Models.
+
+Learn2Prompt provides a beginner-friendly learning experience where users can understand prompting techniques, practice with examples, and improve their AI communication skills through an intuitive web interface.
+
+---
+
+## ✨ Features
+
+- 📚 Prompt Engineering Tutorials
+- 🤖 AI-powered Learning Experience
+- 📝 Interactive Prompt Examples
+- 🎯 Practice Exercises
+- 🔐 User Authentication
+- 📱 Responsive Design
+- ⚡ Fast Performance
+- 🌙 Modern User Interface
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Firebase
+- Google Gemini API
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="docs/screenshot.png" width="900" alt="Learn2Prompt Preview">
+</p>
+
+---
+
+## 🚀 Getting Started
+
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
+
 # or
+
 yarn dev
+
 # or
+
 pnpm dev
+
 # or
+
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **http://localhost:3000** with your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the project by modifying:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/page.tsx
+```
 
-## Learn More
+The page updates automatically as you make changes.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+Learn2Prompt/
+│
+├── app/
+├── components/
+├── public/
+├── docs/
+├── lib/
+├── firebase/
+├── styles/
+└── README.md
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👥 Project Team
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was collaboratively designed and developed by:
+
+- Hrishikesh Adep
+- Prem Ashtekar
+- Abhishek Jadhav
+- Abhay Gunjal
+
+---
+
+## 📚 Learn More
+
+To learn more about Next.js, visit the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+
+You can also explore the official [Next.js GitHub repository](https://github.com/vercel/next.js).
+
+---
+
+## 🚀 Deployment
+
+The easiest way to deploy this project is through the **Vercel Platform**.
+
+For more details, refer to the official Next.js deployment documentation:
+
+https://nextjs.org/docs/app/building-your-application/deploying
+
+---
+
+⭐ If you like this project, consider giving it a star!
