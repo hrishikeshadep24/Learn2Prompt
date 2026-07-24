@@ -131,4 +131,4 @@ https://nextjs.org/docs/app/building-your-application/deploying
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+⭐ If you like this project, consider giving it a star for sure !
